@@ -1,0 +1,24 @@
+###Create
+POST http://localhost:5218/todos
+content-type: application/json
+
+{
+    "Id": 2,
+    "name": "writing second demo",
+    "DueDate" : "2024-09-15",
+    "IsCompleted" : false
+}
+
+###Read All Todos 
+GET http://localhost:5218/todos
+
+###Read by ID
+GET http://localhost:5218/todos/1
+
+###Delete
+DELETE http://localhost:5218/todos/1
+
+###
+GET http://localhost:5218/tasks/1
+
+###
